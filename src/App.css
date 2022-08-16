@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   display: flex;
   list-style-type: none;
   padding-left: 0px;
@@ -6,17 +6,15 @@
   justify-content: space-around;
   flex: 1;
 }
-#lblInfos{
+
+#lblInfos {
   display: flex;
   justify-content: center;
   font-size: 6vw;
   font-weight: bold;
 }
-#InfosDevisID{
-display: flex;
-justify-content: flex-start;
-}
-body{
-  background-color: rgb(255, 255, 255);
-  font-family: Helvetica;
+
+#infosDevisID {
+  display: flex;
+  justify-content: flex-start;
 }

@@ -2,8 +2,8 @@ import React from "react";
 
 import "./Informations.css"
 
-const Informations = ({ element }) => {
-    return(
+export default function Informations() {
+    return (
         <>
             <div id="divInformations">
                 <label id="lblCoor">Coordonnées</label>
@@ -15,7 +15,5 @@ const Informations = ({ element }) => {
                 </div>
             </div>
         </>
-    )
+    );
 }
-
-export default Informations;

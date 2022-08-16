@@ -30,17 +30,14 @@
 }
 
 #header{
-  display: flex;
-  width: 100%;
-  position: fixed;
-  justify-content: space-between;
   top: 0;
   width: 100%;
+  position: fixed;
+  z-index: 100;
   background-color: cornsilk ;
   z-index: 100;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-html {
-   scroll-behavior: smooth;
-}
