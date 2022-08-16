@@ -1,0 +1,27 @@
+#divInformations{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #e0e6ef;
+    border-radius: 14px;
+    color: #0d2339;
+    font-size: 18px;
+    margin: 10px 0;
+    margin-right: 5px;
+    padding: 10px 0;
+}
+
+#lblCoor{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#divCenteredInfos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}

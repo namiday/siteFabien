@@ -1,0 +1,21 @@
+#CarouselDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carousel-roote{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.carousel-root{
+    width: 60%;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}

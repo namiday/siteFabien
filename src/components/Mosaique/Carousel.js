@@ -4,6 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import img1 from "../../assets/images/img1.jpg"
 import img2 from "../../assets/images/img2.jpg"
 import img3 from "../../assets/images/img3.jpg"
+import "./Carousel.css"
 
 const listeImages = [
   img1,
@@ -15,14 +16,16 @@ const listeImages = [
 export class Caroupoivre extends Component {
     render() {
         return (
-            <Carousel width="60%">
-                {listeImages.map((each, index) => (
-                    <div key={index}>
-                        <img  style={{ width: "100%" }} src={each} alt="Tableau"/>
-                        <p className="legend">Couille {index}</p>
-                    </div>
-                ))}
-            </Carousel>
+            <div className='carousel-roote'>
+                <Carousel>
+                    {listeImages.map((each, index) => (
+                        <div id='CarouselDiv' key={index}>
+                            <img  style={{ width: "100%" }} src={each} alt="Tableau"/>
+                            <p className="legend">Couille {index}</p>
+                        </div>
+                    ))}
+                </Carousel>
+            </div>
         );
     }
 }

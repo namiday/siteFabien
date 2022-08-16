@@ -6,7 +6,7 @@ import { Caroupoivre } from "./Carousel.js";
 const Mosaic = ({sticky}) => (
     <>
         <div id="divLabelGallerie">
-            <label>GALLERIE</label>
+            <label>GALERIE</label>
         </div>
         <div>
             <Caroupoivre></Caroupoivre>
