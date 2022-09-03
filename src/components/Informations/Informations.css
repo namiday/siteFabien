@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     background: #e0e6ef;
     border-radius: 14px;
     color: #0d2339;
@@ -12,6 +13,7 @@
     padding: 10px 0;
 }
 
+
 #lblCoor{
     text-align: center;
     font-size: x-large;
@@ -20,8 +22,29 @@
 
 #divCenteredInfos{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+}
+
+.classDivCoord{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.classDivCoord > img {
+    width : 10%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.classDivCoord > label{
+    font-size: larger;
+    word-break: break-all;
 }

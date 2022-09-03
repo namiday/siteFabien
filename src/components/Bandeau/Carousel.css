@@ -1,0 +1,25 @@
+#divCarousel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carousel-roote{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.classCarouselRoot{
+    width: 95%;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+img{
+    width: 100%;
+}

@@ -8,13 +8,19 @@
 }
 
 .map-container {
-  width: 50%;
+  width: 60%;
   height:50vh;
-  /* text-align: center; */
   margin: 0 auto;
   display: block;
 }
-
+@media screen and (max-width : 650px)  {
+  .map-container{
+    width: 90%;
+    height:50vh;
+    margin: 0 auto;
+    display: block;
+  }
+}
 .combobox-input {
   width: 100%;
   padding: 0.5rem;

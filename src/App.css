@@ -1,22 +1,33 @@
-.navbar{
-  display: flex;
-  list-style-type: none;
-  padding-left: 0px;
-  align-items: center;
-  justify-content: space-around;
-  flex: 1;
-}
 #lblInfos{
   display: flex;
   justify-content: center;
   font-size: 6vw;
+  padding-top: 15px;
   font-weight: bold;
 }
-#InfosDevisID{
+
+#anchorInfos{
+  top : -50px;
+}
+
+.anchorHidden {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+#divInfosDevis{
 display: flex;
 justify-content: flex-start;
 }
+
+@media screen and (max-width: 650px){
+  #InfosDevis{
+      display: block;
+  }
+}
 body{
   background-color: rgb(255, 255, 255);
-  font-family: Helvetica;
+  font-family: ui-sans-serif;
 }

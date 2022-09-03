@@ -1,5 +1,5 @@
 import React from "react";
-import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
+import { GoogleMap, useLoadScript, MarkerF,CircleF } from "@react-google-maps/api";
 import "./Maps.css"
 
 export default function Maps() {
@@ -14,8 +14,17 @@ export default function Maps() {
 function Map() { 
     return (
       <> 
-        <GoogleMap zoom={12} center={{ lat: 48.92810080539947, lng: 2.859230713019272 }} mapContainerClassName="map-container">
-          <MarkerF position={{ lat: 48.92810080539947, lng: 2.859230713019272 }} />
+        <GoogleMap id="mapID" zoom={12} center={{ lat: 49.137869, lng: 3.079471  }} mapContainerClassName="map-container">
+          <MarkerF position={{ lat: 49.137869, lng: 3.079471 }} />
+          <CircleF
+                  center={{lat: 49.137869, lng: 3.079471}}
+                  radius={50000.0}
+                  options={{
+                    strokeColor: '#f15536',
+                    strokeOpacity: 0.8,
+                    fillColor:"#2a5777",
+                    fillOpacity: 0.10,}}
+                />
         </GoogleMap>
       </>
     );

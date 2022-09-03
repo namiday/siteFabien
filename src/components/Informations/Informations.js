@@ -1,17 +1,20 @@
 import React from "react";
 
+import Phone from "../../assets/icons/phone.png"
+import Mail from "../../assets/icons/mail.png"
+import Marker from "../../assets/icons/marker.png"
+
 import "./Informations.css"
 
-const Informations = ({ element }) => {
+const Informations = () => {
     return(
         <>
             <div id="divInformations">
                 <label id="lblCoor">Coordonnées</label>
                 <div id="divCenteredInfos">
-                <label> Telephone Fabien : 0611223344</label>
-                <label> Telephone Alex   : 0711223344</label>
-                <label> Localisation :  Mareuil</label>
-                <label> Mail Professionnel : mail@Professionnel.com</label>
+                    <div className="classDivCoord"><img src={Mail} alt="IconsMail"/><label>Tce.proreno@gmail.com</label></div>
+                    <div className="classDivCoord"><img src={Phone} alt="IconsPhone"/><label>0611223344</label></div>
+                    <div className="classDivCoord"><img src={Marker} alt="IconsMarker"/><label>Mareuil-sur-Ourcq</label></div>
                 </div>
             </div>
         </>
