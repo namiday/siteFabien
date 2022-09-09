@@ -12,6 +12,7 @@ const Devis = () => {
         }, (error) => {
             console.log(error.text);
         });
+        alert("Votre demande a été transmise !  Nous revenons vers vous dans les plus brefs délais !");
     };
 
     return (

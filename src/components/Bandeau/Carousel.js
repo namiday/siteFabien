@@ -1,21 +1,13 @@
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import img1 from "../../assets/images/img1.jpg"
-import img2 from "../../assets/images/img2.jpg"
-import img3 from "../../assets/images/img3.jpg"
-import slide1 from "../../assets/images/slide1.png"
-import slide2 from "../../assets/images/slide2.png"
-import slide3 from "../../assets/images/slide3.png"
+import slide1 from "../../assets/images/slide1.jpg"
+import slide2 from "../../assets/images/slide2.jpg"
 import "./Carousel.css"
 
 const listeImages = [
     slide1,
-    slide2,
-    slide3,
-    img1,
-    img2,
-    img3
+    slide2
 ];
 
 

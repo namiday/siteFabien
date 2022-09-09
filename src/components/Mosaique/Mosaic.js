@@ -63,7 +63,7 @@ const Mosaic = () => {
                 <img
                     src={item.link}
                     alt={item.text}
-   
+                    className="MosaicImage"
                     onClick={() => handleClick(item, index)}
                 />
                 </div>

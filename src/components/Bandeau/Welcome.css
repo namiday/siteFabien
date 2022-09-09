@@ -74,12 +74,17 @@
   font-style: oblique;
 }
 
+#divWrapperTeam{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #divAnimation{
   background-color: white;
   /* background-image: linear-gradient(to bottom, #107aca , white); */
   padding-top: 10px;
   padding-bottom: 10px;
-  background-image: url("../../assets/images/jpg3.jpg");
   background-size: 100% ;
 
 }

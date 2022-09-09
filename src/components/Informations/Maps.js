@@ -14,7 +14,7 @@ export default function Maps() {
 function Map() { 
     return (
       <> 
-        <GoogleMap id="mapID" zoom={12} center={{ lat: 49.137869, lng: 3.079471  }} mapContainerClassName="map-container">
+        <GoogleMap id="mapID" zoom={11} center={{ lat: 49.137869, lng: 3.079471  }} mapContainerClassName="map-container">
           <MarkerF position={{ lat: 49.137869, lng: 3.079471 }} />
           <CircleF
                   center={{lat: 49.137869, lng: 3.079471}}
