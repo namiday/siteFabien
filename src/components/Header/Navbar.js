@@ -1,5 +1,5 @@
 import React from "react"
-import Test from './../../assets/images/logo_tce.jpg';
+import Logo from './../../assets/images/logo_tce.jpg';
 import "./Navbar.css"
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return(
     <div id='divHeader'>
-      <a href="#anchorWelcome" onClick={topFunction()}><img id="imgLogo" src={Test} alt='logo test'/></a>
+      <a href="#anchorWelcome" onClick={topFunction()}><img id="imgLogo" src={Logo} alt='logo tce'/></a>
       <ul className='classNavbar'>
         <a href="#anchorWelcome"><li>PRÉSENTATION</li></a>
         <a href="#anchorGallery"><li>RÉALISATIONS</li></a>

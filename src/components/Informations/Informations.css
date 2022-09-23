@@ -35,6 +35,8 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 
@@ -47,4 +49,13 @@
 .classDivCoord > label{
     font-size: larger;
     word-break: break-all;
+    width: 100%;
 }
+
+@media screen and (max-width: 760px){
+    .classDivCoord > label{
+        font-size: medium;
+        word-break: break-all;
+        width: 100%;
+    }
+  }

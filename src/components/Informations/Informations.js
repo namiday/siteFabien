@@ -12,9 +12,9 @@ const Informations = () => {
             <div id="divInformations">
                 <label id="lblCoor">Coordonnées</label>
                 <div id="divCenteredInfos">
-                    <div className="classDivCoord"><img src={Mail} alt="IconsMail"/><label>Tce.proreno@gmail.com</label></div>
-                    <div className="classDivCoord"><img src={Phone} alt="IconsPhone"/><label>0611223344</label></div>
-                    <div className="classDivCoord"><img src={Marker} alt="IconsMarker"/><label>Mareuil-sur-Ourcq</label></div>
+                    <div className="classDivCoord"><img src={Mail} alt="IconsMail"/><label className="lblInfos">Tce.proreno@gmail.com</label></div>
+                    <div className="classDivCoord"><img src={Phone} alt="IconsPhone"/><label className="lblInfos">0611223344</label></div>
+                    <div className="classDivCoord"><img src={Marker} alt="IconsMarker"/><label className="lblInfos">Mareuil-sur-Ourcq</label></div>
                 </div>
             </div>
         </>
