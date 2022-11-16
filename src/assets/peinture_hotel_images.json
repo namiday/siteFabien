@@ -1,0 +1,12 @@
+{
+    "data": [
+      {
+        "text": "Description of image is here image1",
+        "link": "/assets/peinture_hotel/image1.jpg"
+      },
+      {
+        "text": "Description of image is here image2",
+        "link": "/assets/peinture_hotel/image2.jpg"
+      }
+    ]
+  }

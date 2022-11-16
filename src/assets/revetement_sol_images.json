@@ -1,0 +1,20 @@
+{
+    "data": [
+      {
+        "text": "Description of image is here image1",
+        "link": "/assets/revetement_sol/image1.jpg"
+      },
+      {
+        "text": "Description of image is here image2",
+        "link": "/assets/revetement_sol/image2.jpg"
+      },
+      {
+        "text": "Description of image is here image3",
+        "link": "/assets/revetement_sol/image3.jpg"
+      },
+      {
+        "text": "Description of image is here image4",
+        "link": "/assets/revetement_sol/image4.jpg"
+      }
+    ]
+  }

@@ -1,0 +1,16 @@
+{
+    "data": [
+      {
+        "text": "Description of image is here image1",
+        "link": "/assets/carrelage_sdb/image1.jpg"
+      },
+      {
+        "text": "Description of image is here image2",
+        "link": "/assets/carrelage_sdb/image2.jpg"
+      },
+      {
+        "text": "Description of image is here image3",
+        "link": "/assets/carrelage_sdb/image3.jpg"
+      }
+    ]
+  }

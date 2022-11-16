@@ -1,90 +1,133 @@
-#divLabelGallerie{
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 35px;
+  border: outset #ffffff; 
+}
+
+.collapsible:hover{
+  border: outset #383431; 
+  background-color: #444;
+  color: #eee;
+
+}
+
+#divLabelGallerie {
+  display: flex;
+  justify-content: center;
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+#divMosaic {
+  display: grid;
+  grid-template-rows: repeat(2, 2fr);
+  grid-template-columns: repeat(4, 2fr);
+  grid-auto-rows: 300px;
+  gap: 10px;
+}
+
+div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.MosaicImage:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  #divMosaic {
     display: flex;
-    justify-content: center;
-    font-size: 6vw;
-    font-weight: bold;
+    flex-direction: column;
+  }
+  #divMosaic > div {
+    margin-bottom: 1rem;
+  }
 }
 
-#divMosaic{
-    display: grid;
-    grid-template-rows: repeat(2, 2fr);
-    grid-template-columns: repeat(4, 2fr);
-    grid-auto-rows: 300px;
-    gap : 10px;
+.divWrapper {
+  padding: 1.5rem;
 }
 
-div > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.divWrapper > details {
+  border: 1px solid #ddd;
+  background: #fff;
+  margin-bottom: 1.5rem;
+  border-radius: 0.35rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-.MosaicImage:hover{
-    opacity: 0.7;
-    cursor: pointer;
+.divWrapper > summary {
+  cursor: pointer;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
 }
 
-@media screen and (max-width: 650px){
-    #divMosaic{
-        display: flex;
-        flex-direction: column;
-    }
-    #divMosaic > div{
-        margin-bottom: 1rem;
-    }
+.divWrapper > div {
+  padding: 1rem 1.5rem;
 }
 /* Mise en place de la grid  */
-#divJPG0{
-    grid-row: span 2;
-    grid-column: span 2;
+#divJPG0 {
+  grid-row: span 2;
+  grid-column: span 2;
 }
 
-#divJPG1{
-    grid-row: span 2;
-    grid-column: span 2;
+#divJPG1 {
+  grid-row: span 2;
+  grid-column: span 2;
 }
 
-#divJPG2{
-    grid-row: span 2;
-    grid-column: span 2;
+#divJPG2 {
+  grid-row: span 2;
+  grid-column: span 2;
 }
 
-#divJPG3{
-    grid-row: span 2;
-    grid-column: span 2;
+#divJPG3 {
+  grid-row: span 2;
+  grid-column: span 2;
 }
 
-#divJPG4{
-    grid-row: span 2;
-    grid-column: span 4;
+#divJPG4 {
+  grid-row: span 2;
+  grid-column: span 4;
 }
 
-#divJPG5{
-    grid-row: span 2;
-    grid-column: span 2;
+#divJPG5 {
+  grid-row: span 2;
+  grid-column: span 2;
 }
 
-#divJPG6{
-    grid-row: span 2;
-    grid-column: span 2;
+#divJPG6 {
+  grid-row: span 2;
+  grid-column: span 2;
 }
 
-#divJPG7{
-    grid-row: span 2;
-    grid-column: span 4;
+#divJPG7 {
+  grid-row: span 2;
+  grid-column: span 4;
 }
 
-#divJPG8{
-    grid-row: span 1;
-    grid-column: span 1;
+#divJPG8 {
+  grid-row: span 1;
+  grid-column: span 1;
 }
 
-#divJPG9{
-    grid-row: span 1;
-    grid-column: span 2;
+#divJPG9 {
+  grid-row: span 1;
+  grid-column: span 2;
 }
 
-#divJPG10{
-    grid-row: span 1;
-    grid-column: span 3;
+#divJPG10 {
+  grid-row: span 1;
+  grid-column: span 3;
 }

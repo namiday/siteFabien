@@ -1,0 +1,16 @@
+{
+    "data": [
+      {
+        "text": "Description of image is here image1",
+        "link": "/assets/devanture/image1.jpg"
+      },
+      {
+        "text": "Description of image is here image3",
+        "link": "/assets/devanture/image3.jpg"
+      },
+      {
+        "text": "Description of image is here image4",
+        "link": "/assets/devanture/image4.jpg"
+      }
+    ]
+  }
